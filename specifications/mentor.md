@@ -1,8 +1,7 @@
 #Mentor
 
 ##the class' parent class (if any)
-* Mentor
-* Student
+* Person
 
 ##the class' description
 This class represents a mentor in real life.
