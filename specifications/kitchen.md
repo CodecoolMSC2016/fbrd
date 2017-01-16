@@ -1,4 +1,4 @@
-# Student
+#Kitchen
 
 ##the class' parent class (if any)
 

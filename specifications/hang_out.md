@@ -1,4 +1,4 @@
-# Student
+#Hang_out
 
 ##the class' parent class (if any)
 

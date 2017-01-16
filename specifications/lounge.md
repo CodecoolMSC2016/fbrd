@@ -1,4 +1,4 @@
-# Student
+#Lounge
 
 ##the class' parent class (if any)
 
