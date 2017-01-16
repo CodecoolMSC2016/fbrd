@@ -6,3 +6,5 @@ __pycache__/
 
 # OS-X
 .DS_Store
+*.xml
+.idea/python-4th-tw-mentors-life-oop-fbrd.iml
