@@ -9,12 +9,8 @@ This class represents activities in the kitchen.
 
 ##attributes
 * `hunger_level`
-    * **date type:** string
+    * **data type:** string
     * **description:** stores the location of the class
-* `participants`
-    * **date type:** list
-    * **description:** caontain mentor/student objects
-
 
 ##instance methods 
 * `__init___`
@@ -34,4 +30,4 @@ This class represents activities in the kitchen.
 * `random_talk`
     * **argument:** None
     * **return:** None
-    * **description:** Talking about random stories to increase energy_level
+    * **description:** Talking about random stories to increase social_life
