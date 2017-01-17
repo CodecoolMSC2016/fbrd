@@ -1,4 +1,4 @@
-#Student
+#Codecool class
 
 ##the class' parent class (if any)
 * Mentor
@@ -23,9 +23,17 @@ This class represents a class in real life.
 
 ##instance methods 
 * `__init___`
-    * **arguments:** mentor_name
+    * **arguments:** location, year, mentors, students
     * **description:** calls the Person's constructor, but also set's the nickname attribute 
     (should raise an error, if empty).
+    
+*  `find_mentor_by_full_name`
+    * **arguments:** full_name
+    * **description:** give back a mentor by it's full_name
+
+*  `find_student_by_full_name`
+    * **arguments:** full_name
+    * **description:** give back a student by it's full_name
 
 * `generate_local`
     * **argument:** None
