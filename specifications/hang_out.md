@@ -1,8 +1,7 @@
 #Hang out
 
 ##the class' parent class (if any)
-* Mentor
-* Student
+None
 
 ##the class' description
 This class represents a hang out, non school activity in real life.

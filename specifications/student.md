@@ -1,7 +1,7 @@
 #Student
 
 ##the class' parent class (if any)
-* Person
+Person
 
 ##the class' description
 This class represents a student in real life.

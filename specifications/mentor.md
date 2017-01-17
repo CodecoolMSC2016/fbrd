@@ -1,7 +1,7 @@
 #Mentor
 
 ##the class' parent class (if any)
-* Person
+Person
 
 ##the class' description
 This class represents a mentor in real life.
@@ -16,6 +16,11 @@ This class represents a mentor in real life.
     * **arguments:** mentor_name
     * **description:** calls the Person's constructor, but also set's the nickname attribute 
     (should raise an error, if empty).
+    
+* `do_presentation`
+    * **arguments:** students_object_list
+    * **description:** increases the student's knowledge level and 
+    reduces the energy level for both student and mentor
 
 * `create_by_csv`
     * **argument:** file_path

@@ -1,8 +1,7 @@
 #Kitchen
 
 ##the class' parent class (if any)
-* Mentor
-* Student
+None
 
 ##the class' description
 This class represents activities in the kitchen.
