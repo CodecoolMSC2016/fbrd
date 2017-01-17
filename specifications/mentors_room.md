@@ -1,8 +1,11 @@
 #Mentors_room
 
 ##the class' parent class (if any)
+* Mentor
+* Student
 
 ##the class' description
+* This class represents the mentor room
 
 ##attributes
 * `bfa_status`
