@@ -20,6 +20,12 @@ None
 * `gender`
     * **date type:** string
     * **description:** should be male/female/notsure
+* `energy_level`
+    * **date type:** integer
+    * **description:** current energy level
+* `social_life`
+    * **date type:** integer
+    * **description:** current social life level
 
 ##instance methods 
 * `__init___`

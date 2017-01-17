@@ -10,13 +10,10 @@ This class represents a student in real life.
 * `knowledge_level`
     * **date type:** integer
     * **description:** stores the knowledge level of the student in programming
-* `energy_level`
-    * **date type:** integer
-    * **description:** current energy level
 
 ##instance methods 
 * `__init___`
-    * **arguments:** knowledge_level, energy_level
+    * **arguments:** knowledge_level
     * **description:** calls the Person's constructor, but also set's the attributes above 
     (should raise an error, if any is empty).
 
