@@ -3,7 +3,7 @@ from student import Student
 
 class MentorsRoom:
 
-    def __init__():
+    def __init__(self):
         self.bfa_status = None
 
     def do_a_bfa(self, student):
