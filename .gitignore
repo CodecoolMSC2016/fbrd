@@ -8,3 +8,4 @@ __pycache__/
 .DS_Store
 *.xml
 .idea/python-4th-tw-mentors-life-oop-fbrd.iml
+/story.py

@@ -26,7 +26,7 @@ class Student(Person):
                 students.append(row[0].split())
 
         for entry in range(len(students)):
-            student_objects.append(Student(students[entry][cls.FIRST_NAME], students[entry][cls.LAST_NAME], students[entry][
-                cls.BIRTH], students[entry][cls.GENDER], students[entry][cls.ENERGY], students[entry][cls.SOCIAL]))
+            student_objects.append(Student(students[entry][cls.FIRST_NAME], students[entry][cls.LAST_NAME], int(students[entry][
+                                   cls.BIRTH]), students[entry][cls.GENDER], int(students[entry][cls.ENERGY]), int(students[entry][cls.SOCIAL])))
 
         return student_objects
