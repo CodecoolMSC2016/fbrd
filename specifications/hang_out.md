@@ -8,7 +8,7 @@ This class represents a hang out, non school activity in real life.
 
 ##attributes
 * `blood_alcohol_level`
-    * **date type:** string
+    * **date type:** integer
     * **description:** stores the location of the class
 * `participants`
     * **date type:** list
