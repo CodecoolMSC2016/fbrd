@@ -25,8 +25,8 @@ class Student(Person):
             for row in reader:
                 students.append(row[0].split())
 
-        for i in range(len(students)):
-            student_objects.append(Student(students[i][cls.FIRST_NAME], students[i][cls.LAST_NAME], students[i][
-                cls.BIRTH], students[i][cls.GENDER], students[i][cls.ENERGY], students[i][cls.SOCIAL]))
+        for entry in range(len(students)):
+            student_objects.append(Student(students[entry][cls.FIRST_NAME], students[entry][cls.LAST_NAME], students[entry][
+                cls.BIRTH], students[entry][cls.GENDER], students[entry][cls.ENERGY], students[entry][cls.SOCIAL]))
 
         return student_objects
