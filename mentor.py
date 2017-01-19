@@ -14,10 +14,13 @@ class Mentor(Person):
     @staticmethod
     def do_presentation(person):
             person.energy_level -= 30
+            print(person.first_name + " " + person.last_name + "'s energy level decreased to " + str(person.energy_level))
             person.knowledge_level += 15
+            print(person.first_name + " " + person.last_name + "'s knowledge level increased to " + str(person.knowledge_level))
 
     @classmethod
     def create_by_csv(cls):
+        print("Generating mentors object list from CSV file.")
         with open('data/mentors.csv') as csvfile:
             mentors_obj_list = []
             data = csv.reader(csvfile)
