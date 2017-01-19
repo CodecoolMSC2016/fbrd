@@ -17,7 +17,7 @@ Kitchen
 Lounge
 * nap in bean bags
 * play (something)
-* watch random vide on tv
+* watch random video on tv
 
 Mentors room
 * do a meeting 
