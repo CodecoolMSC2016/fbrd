@@ -1,13 +1,13 @@
 class Kitchen():
-    def __init__(self, participants, hunger_level):
-        self.participants = participants
-        self.hunger_level = hunger_level
 
+    @staticmethod
     def drink_coffee(person):
         person.energy_level += 20
 
-    def eat(self):
-        self.hunger_level += 30
+    @staticmethod
+    def eat(person):
+        person.hunger_level += 30
 
+    @staticmethod
     def random_talk(person):
         person.social_life += 15
