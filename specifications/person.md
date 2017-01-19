@@ -20,6 +20,9 @@ None
 * `gender`
     * **data type:** string
     * **description:** should be male/female/notsure
+* `hunger_level`
+    * **data type:** int
+    * **description:** current hunger level
 * `energy_level`
     * **data type:** integer
     * **description:** current energy level
