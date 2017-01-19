@@ -9,26 +9,39 @@ None
 
 ##attributes
 * `first_name`
-    * **date type:** string
+    * **dataq type:** string
     * **description:** first name of the person
 * `last_name`
-    * **date type:** string
+    * **data type:** string
     * **description:** last name of the person
 * `year_of_birth`
-    * **date type:** integer
+    * **data type:** integer
     * **description:** Birth year of the person
 * `gender`
-    * **date type:** string
+    * **data type:** string
     * **description:** should be male/female/notsure
 * `energy_level`
-    * **date type:** integer
+    * **data type:** integer
     * **description:** current energy level
 * `social_life`
-    * **date type:** integer
+    * **data type:** integer
     * **description:** current social life level
+* `darts_skill_level`
+    * **data type:** integer
+    * **description:** current darts skill level
+* `playstation_skill_level`
+    * **data type:** integer
+    * **description:** current ps skill level
+* `blood_alcohol_level`
+    * **data type:** integer
+    * **description:** blood alcohol level
 
 ##instance methods 
 * `__init___`
     * **arguments:** first_name, last_name, year_of_birth, gender
     * **description:** gets all the attributes above. It should raise an error, 
     if any of the attributes is empty, and also if the provide gender is not valid
+
+* `regenerate`
+    * **arguments:** None
+    * **description:** if the blood alcohol level exceds 50, the person pukes, sets back alcohol level a little
