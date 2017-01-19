@@ -1,10 +1,10 @@
 #Mentor
 
 ##the class' parent class (if any)
-Person
+* Person
 
 ##the class' description
-This class represents a mentor in real life.
+* This class represents a mentor in real life.
 
 ##attributes
 * `nickname`
@@ -13,12 +13,12 @@ This class represents a mentor in real life.
 
 ##instance methods 
 * `__init___`
-    * **arguments:** mentor_name
+    * **arguments:** nickname
     * **description:** calls the Person's constructor, but also set's the nickname attribute 
     (should raise an error, if empty).
     
 * `do_presentation`
-    * **arguments:** students_object_list
+    * **arguments:** student object
     * **description:** increases the student's knowledge level and 
     reduces the energy level for both student and mentor
 
