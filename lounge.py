@@ -1,14 +1,10 @@
 class Lounge:
 
-    def __init__(self, darts_Skill_level, playstation_skill_level):
-        self.darts_skill_level = darts_Skill_level
-        self.playstation_skill_level = playstation_skill_level
-
-    def play(self, game_name, time_spent):
+    def play(self, person, game_name, time_spent):
         if game_name == "darts":
-            self.darts_skill_level += 5 * time_spent
+            person.darts_skill_level += 5 * time_spent
         elif game_name == "playstation":
-            self.playstation_skill_level += 5 * time_spent
+            person.playstation_skill_level += 5 * time_spent
         else:
             pass
             # throw error
