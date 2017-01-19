@@ -140,7 +140,11 @@ def rest():
 
 def meeting():
     ascii_later()
+    print("Entering meeting room...\n")
     ascii_eternity()
+    print(mentors[0].first_name + " " + mentors[0].last_name +
+          "'s energy level decreased to " + str(mentors[0].energy_level))
+    print("The day is almost over, i should hang out somewhere...")
     # EDDIG BIRTAM
 
 
