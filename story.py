@@ -186,12 +186,11 @@ def hangout():
 
 
 def main():
-    # wake_up()
-    # go_to_kitchen()
-    # classroom()
-    # eat()
-    # rest()
-    # meeting()
+    go_to_kitchen()
+    classroom()
+    eat()
+    rest()
+    meeting()
     hangout()
 
 
