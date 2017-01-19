@@ -4,6 +4,7 @@ from student import Student
 from mentors_room import MentorsRoom
 from lounge import Lounge
 from kitchen import Kitchen
+from hang_out import Hangout
 import time
 import os
 from asci import *
@@ -13,6 +14,8 @@ codecool_msc = CodecoolClass.generate_local()
 students = codecool_msc.students
 mentors = codecool_msc.mentors
 kitchen = Kitchen()
+mentors_room = MentorsRoom()
+hangout = Hangout(0)
 date = time.strftime("%Y/%m/%d")
 
 history = []
@@ -88,7 +91,7 @@ def bfa():
     print("Sigh, there is a leftover bfa i need to do.")
     print("{} {} come with me to the mentors room please!".format(
         bfa_student.first_name, bfa_student.last_name))
-    do_a_bfa(bfa_student)
+    m_room.do_a_bfa(bfa_student)
     print("{} {}'s BFA succeeded: {}".format(
         bfa_student.first_name, bfa_student.last_name, m_room.bfa_status))
     ascii_time()
@@ -141,11 +144,22 @@ def rest():
 def meeting():
     ascii_later()
     print("Entering meeting room...\n")
+    time.sleep(1)
+    print("So lets talk about why we bought the Brewie machine for 1690$")
     ascii_eternity()
+    print("We couldn't found the asnwer for our main meeting question.. or maybe for ...?!  ")
+    mentors_room.do_a_meeting(mentors[0])
+    ascii_dotdotdot()
+    ascii_later()
+    mentors_room.do_a_meeting(mentors[0])
     print(mentors[0].first_name + " " + mentors[0].last_name +
           "'s energy level decreased to " + str(mentors[0].energy_level))
-    print("The day is almost over, i should hang out somewhere...")
-    # EDDIG BIRTAM
+    time.sleep(1)
+    print("The day is almost over, I should hang out somewhere...")
+
+def hangout():
+    
+
 
 
 def main():
@@ -153,7 +167,8 @@ def main():
     # go_to_kitchen()
     # classroom()
     # eat()
-    rest()
+    # rest()
+    # meeting()
 
 
 if __name__ == "__main__":
