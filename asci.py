@@ -56,3 +56,15 @@ def ascii_eternity():
                                                    /____/                              """)
     input(">")
     os.system("clear")
+
+def ascii_dotdotdot():
+    input(">")
+    os.system("clear")
+    print("""
+
+
+
+ _    _    _
+(_)  (_)  (_)
+              """)
+    os.system("clear")
