@@ -6,7 +6,7 @@ class Kitchen():
 
     @staticmethod
     def eat(person):
-        person.hunger_level += 30
+        person.hunger_level -= 30
 
     @staticmethod
     def random_talk(person):
