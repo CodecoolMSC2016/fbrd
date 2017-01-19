@@ -1,6 +1,7 @@
 class Lounge:
 
-    def play(self, person, game_name, time_spent):
+    @staticmethod
+    def play(person, game_name, time_spent):
         if game_name == "darts":
             person.darts_skill_level += 5 * time_spent
         elif game_name == "playstation":
