@@ -61,10 +61,8 @@ def ascii_dotdotdot():
     input(">")
     os.system("clear")
     print("""
-
-
-
  _    _    _
 (_)  (_)  (_)
               """)
+    input(">")
     os.system("clear")

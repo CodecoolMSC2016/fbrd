@@ -15,10 +15,8 @@ students = codecool_msc.students
 mentors = codecool_msc.mentors
 kitchen = Kitchen()
 mentors_room = MentorsRoom()
-hangout = Hangout(0)
+hangouts = Hangout(0)
 date = time.strftime("%Y/%m/%d")
-
-history = []
 
 
 def wake_up():
@@ -156,10 +154,35 @@ def meeting():
           "'s energy level decreased to " + str(mentors[0].energy_level))
     time.sleep(1)
     print("The day is almost over, I should hang out somewhere...")
+    input(">")
 
 def hangout():
-    
-
+    os.system("clear")
+    print("Arriving at Paprika, our Codecool drink base\n")
+    time.sleep(2)
+    print("Hmm, many many Codecooler here.. it is going to be a long and expensive night...")
+    time.sleep(1)
+    print("But whatever, lets #Yolo this night!\n")
+    print("The first round on me")
+    time.sleep(3)
+    hangouts.buy_a_round_of_shot(mentors[0],470,len(students))
+    time.sleep(2)
+    print("Nah, lets drink it guys!")
+    time.sleep(1)
+    print("\n < place deformed face here >\n")
+    print("uhh, yeeeeAAHH")
+    time.sleep(4)
+    print("Lets do another, it was like water for me.")
+    hangouts.buy_a_round_of_shot(mentors[0],470,len(students))
+    time.sleep(2)
+    print("There they are... = )")
+    time.sleep(0.5)
+    print("The last one, buys the next round!")
+    ascii_dotdotdot()
+    os.system("clear")
+    print("*Alarm clock buzzing*")
+    time.sleep(2)
+    print("No, not this shit again...")
 
 
 def main():
@@ -169,6 +192,7 @@ def main():
     # eat()
     # rest()
     # meeting()
+    hangout()
 
 
 if __name__ == "__main__":
