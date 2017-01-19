@@ -9,7 +9,7 @@ None
 
 ##attributes
 * `first_name`
-    * **dataq type:** string
+    * **data type:** string
     * **description:** first name of the person
 * `last_name`
     * **data type:** string

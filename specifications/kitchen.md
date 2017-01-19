@@ -1,15 +1,13 @@
 #Kitchen
 
 ##the class' parent class (if any)
-None
+* None
 
 ##the class' description
-This class represents activities in the kitchen.
+* This class represents activities in the kitchen.
 
 ##attributes
-* `hunger_level`
-    * **data type:** string
-    * **description:** stores the location of the class
+* None
 
 ##instance methods 
 * `__init___`
@@ -17,12 +15,12 @@ This class represents activities in the kitchen.
     * **description:** constructor
 
 * `drink_coffee`
-    * **argument:** None
+    * **argument:** person object
     * **return:** None
     * **description:** Drinks a coffee to increase energy_level
 
 * `eat`
-    * **argument:** None
+    * **argument:** person object
     * **return:** None
     * **description:** Eat to reduce hunger_level
     
