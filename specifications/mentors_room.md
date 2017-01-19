@@ -18,6 +18,6 @@ None
     * **description:** get a student into doing a bfa, reducing his energy level 
 
 * `do_a_meeting`
-    * **arguments:** participants (list storing mentor objects)
+    * **arguments:** person/mentor object
     * **returns None** (void) 
     * **description:** arrange a meeting, which decreases the energy level of participants
