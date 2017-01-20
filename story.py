@@ -80,10 +80,10 @@ def classroom():
     mentors[0].energy_level -= 20
     print(mentors[0].first_name + " " + mentors[0].last_name +
           "'s energy level decreased to " + str(mentors[0].energy_level))
+    ascii_later()
 
 
 def bfa():
-    ascii_later()
     m_room = MentorsRoom()
     bfa_student = students[random.randint(0, len(students) - 1)]
     print("Sigh, there is a leftover bfa i need to do.")
@@ -92,7 +92,7 @@ def bfa():
     m_room.do_a_bfa(bfa_student)
     print("{} {}'s BFA succeeded: {}".format(
         bfa_student.first_name, bfa_student.last_name, m_room.bfa_status))
-    ascii_time()
+    ascii_later()
 
 
 def eat():
@@ -115,6 +115,7 @@ def eat():
 
 
 def rest():
+    mentors[0].energy_level -= 10
     time.sleep(1)
     print(mentors[0].first_name + " " + mentors[0].last_name +
           "'s energy level decreased to " + str(mentors[0].energy_level))
@@ -126,11 +127,11 @@ def rest():
     print(mentors[0].first_name + " " + mentors[0].last_name +
           "'s energy level increased to " + str(mentors[0].energy_level) + "\n")
     time.sleep(1)
-    print("Lets play some darts! \n")
+    print("Lets play some darts!")
     lounge.play(mentors[0], "darts", 5)
     time.sleep(1)
     print(mentors[0].first_name + " " + mentors[0].last_name +
-          "'s darts skill increased to " + str(mentors[0].darts_skill_level))
+          "'s darts skill increased to " + str(mentors[0].darts_skill_level) + "\n")
     print("Lets watch some DANK Meme videos on YouTube!")
     time.sleep(1)
     lounge.watch_random_video_on_tv(mentors[0], 2)
@@ -156,6 +157,7 @@ def meeting():
     print("The day is almost over, I should hang out somewhere...")
     input(">")
 
+
 def hangout():
     os.system("clear")
     print("Arriving at Paprika, our Codecool drink base\n")
@@ -165,7 +167,7 @@ def hangout():
     print("But whatever, lets #Yolo this night!\n")
     print("The first round on me")
     time.sleep(3)
-    hangouts.buy_a_round_of_shot(mentors[0],470,len(students))
+    hangouts.buy_a_round_of_shot(mentors[0], 470, len(students))
     time.sleep(2)
     print("Nah, lets drink it guys!")
     time.sleep(1)
@@ -173,7 +175,7 @@ def hangout():
     print("uhh, yeeeeAAHH")
     time.sleep(4)
     print("Lets do another, it was like water for me.")
-    hangouts.buy_a_round_of_shot(mentors[0],470,len(students))
+    hangouts.buy_a_round_of_shot(mentors[0], 470, len(students))
     time.sleep(2)
     print("There they are... = )")
     time.sleep(0.5)
@@ -186,8 +188,10 @@ def hangout():
 
 
 def main():
+    wake_up()
     go_to_kitchen()
     classroom()
+    bfa()
     eat()
     rest()
     meeting()
